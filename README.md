@@ -34,9 +34,8 @@ Create a .env file in the server directory of the project and add your database 
 
 Example .env file:
 
-`DB_HOST=localhost
-DB_PORT=27017
-DB_NAME=shiver`
+`PORT = 4000
+mongodb+srv://<db_username>:<db_password>@shiver.meuhr.mongodb.net/?retryWrites=true&w=majority&appName=Shiver`
 Make sure to replace the values with your local database configuration.
 
 In the front environment make sure to have a proxy in the package.json it should look like this: 
