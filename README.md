@@ -14,7 +14,7 @@ Follow these steps to get Shiver running locally:
 1. Clone the Repository
 First, clone the repository to your local machine:
 
-`git clone <repository-url>`
+`git clone git@github.com:Meanzar/Shiver.git`
 `cd shiver`
 
 2. Install Dependencies
