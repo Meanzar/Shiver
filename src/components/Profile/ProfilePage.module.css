@@ -1,0 +1,27 @@
+.profileContainer {
+  max-width: 500px;
+  margin: 50px auto;
+  margin-top: 200px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.profileContainer h1 {
+  color: #333;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.profileContainer h1:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0056b3;
+}
+
+.alert {
+  display: none; /* Initially hidden */
+}

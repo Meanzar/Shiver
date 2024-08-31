@@ -1,0 +1,70 @@
+.create {
+  max-width: 800px; /* Increased width for better two-column layout */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Adds space between columns */
+}
+
+h3 {
+  grid-column: span 2; /* Centered heading across both columns */
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+input, select {
+  width: fit-content;
+  max-width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type='text'],
+input[type='url'],
+input[type='number'] {
+  font-family: Arial, sans-serif;
+  width: 70%;
+}
+
+select {
+  font-family: Arial, sans-serif;
+}
+
+.create__button {
+  grid-column: span 2; /* Button spans both columns */
+  padding: 12px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.create__button:hover {
+  background-color: #4cae4c;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+  grid-column: span 2; /* Error message spans both columns */
+}

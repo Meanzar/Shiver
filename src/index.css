@@ -5,10 +5,10 @@
   --primary: #D73F3F;
   --grey : #E5E5E5;
   --secondary: #101A33;
+;
 }
 body {
-  /* background: linear-gradient(179.62deg, #000000 100%, rgba(15, 14, 16, 0.95)); */
-  background: #E5E5E5;
+  background: linear-gradient(179.62deg, #000000 100%, rgba(15, 14, 16, 0.95));
   margin:0;
   font-family:'Poppins';
   color: var(--primary);
@@ -27,12 +27,6 @@ header .container {
 header a {
   color: var(--grey);
   text-decoration:none;
-}
-
-.pages {
-  max-width: 1400px;
-  padding:20px;
-  margin:0, auto;
 }
 .film-cat {
   margin:40px;
@@ -62,8 +56,7 @@ header a {
   padding:20px;
 }
 .film-title {
-  position:absolute;
-  margin:0;
+  text-align: center;
   color : var(--grey);
   font-size:32px;
 }

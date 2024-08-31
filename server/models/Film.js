@@ -25,8 +25,8 @@ const filmSchema = mongoose.Schema({
         required:true
     },
 
-    actor: {type: String, 
-        required:true
+    casting: {type: String, 
+        required: true
     },
     year:{ 
         type: Number, 

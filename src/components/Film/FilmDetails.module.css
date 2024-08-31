@@ -1,0 +1,116 @@
+.filmCarrousel {
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.filmCarrousel:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.filmThumbnail {
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.popupContainer {
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  max-width: 700px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.filmZoom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filmImage {
+  object-fit: contain;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.filmTitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 15px;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.filmText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  color: var(--secondary);
+}
+
+.zoomDetails {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.zoomDetails p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.filmSynopsis {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: var(--secondary)
+}
+
+.filmActor {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filmActorImage {
+  border-radius: 50%;
+  margin-right: 12px;
+  border: 2px solid #444;
+}
+
+.filmActorText {
+  font-size: 18px;
+  color: #fefefe;
+}
+
+.filmRealisator {
+  font-size: 14px;
+  text-align: center;
+  color: var(--secondary);
+  margin-bottom: 20px;
+}
+
+.filmLink {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.filmLink:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

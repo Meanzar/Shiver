@@ -1,0 +1,55 @@
+.signInContainer {
+  max-width: 400px;
+  margin: 50px auto;
+  margin-top: 200px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.create {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.create__button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.create__button:hover {
+  background-color: var(--primary);
+}
+
+.create__button.green {
+  background-color: green;
+}
+
+.create__button.green:hover {
+  background-color: var(--secondary);
+}
